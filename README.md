@@ -1,5 +1,5 @@
-# general-skeleton
+# dockerfiles
 
 [![Software License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-This repository provides a starting point for other (general) projects.
+This repository provides `Dockerfile`s.
