@@ -15,15 +15,17 @@ services:
     working_dir: /app
 
   php80-cli:
-    image: php:8.0-cli
+    build: ./php80-cli/
     volumes:
-      - ..:/app/
+      - ..:/app
+      - ../logs:/var/log/xdebug
     working_dir: /app
 
   php81-cli:
-    image: php:8.1-cli
+    build: ./php81-cli/
     volumes:
-      - ..:/app/
+      - ..:/app
+      - ../logs:/var/log/xdebug
     working_dir: /app
 
   php82-cli:
